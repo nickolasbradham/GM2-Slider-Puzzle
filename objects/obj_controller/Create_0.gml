@@ -1,5 +1,5 @@
 /// @description Setup
-var spr = get_open_filename("image|*.jpg|*.png", "")
+var spr = get_open_filename("image|*.jpg;*.png", "")
 if(spr == "")
 	game_end()
 
